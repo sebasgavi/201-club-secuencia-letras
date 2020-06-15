@@ -53,7 +53,7 @@ function interpolateChars (elem) {
     if(counter >= maxCount){
       clearInterval(id);
     }
-  }, 300);
+  }, 50);
 }
 
 window.addEventListener('click', function(){
